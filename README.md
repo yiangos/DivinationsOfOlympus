@@ -1,1 +1,1 @@
-# DivinationsOfOlympus
+# Divinations of Olympus
