@@ -118,6 +118,8 @@ html{
     border-spacing: 0.25rem;
     border-collapse: separate;
     width:22rem;
+    border-radius:0.5rem;
+    border:none;
   }
   .word .glyph {
     border-radius:0.5rem;
@@ -142,10 +144,12 @@ html{
   .word .set{
     color:#0aa00a;
   }
+  .word.lost, .word.lost .glyph{
+    border:1px solid #a00a0a;
+  }
   .word.selected{
     background-color:#004f00;
     color:white;
-    border-radius:0.5rem;
   }
   /* ==========================================================================
      Helper classes
